@@ -29,31 +29,31 @@ function updateValues(){
 
 
 function convertDistanceUSA(num){
-    return (num * 3.281).toFixed(3);
+    return (num * 3.28084).toFixed(3);
 
 }
 
 function convertVolumeUSA(num){
-    return (num * 0.2641).toFixed(3);
+    return (num * 0.264172).toFixed(3);
 
 }
 
 function convertMassUSA(num){
-    return (num * 2.204).toFixed(3);
+    return (num * 2.20462).toFixed(3);
     
 }
 
 function convertDistanceUk(num){
-    return (num / 3.281).toFixed(3);
+    return (num / 3.28084).toFixed(3);
 
 }
 
 function convertVolumeUk(num){
-    return (num / 0.2641).toFixed(3);
+    return (num / 0.264172).toFixed(3);
 
 }
 
 function convertMassUk(num){
-    return (num / 2.204).toFixed(3);
+    return (num / 2.20462).toFixed(3);
 }
 
